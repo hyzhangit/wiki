@@ -2,6 +2,7 @@
 #### [首页](?file=home-首页)
 
 ##### 随笔
+- [what do you want](?file=001-随笔/001-what do you want "what do you want")
 
 ##### 阅读
 - **人物故事**
