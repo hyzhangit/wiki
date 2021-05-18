@@ -38,6 +38,7 @@
 ##### 编程
 - **JAVA**
     - **Java基础**
+        - [学习资料](?file=004-编程/001-JAVA/001-Java基础/001-学习资料 "学习资料")
     - **Java框架**
         - **Spring**
             - [SpringBoot](?file=004-编程/001-JAVA/002-Java框架/001-Spring/001-SpringBoot "SpringBoot")
