@@ -10,4 +10,4 @@
 最重要的不是你拥有什么，而是你想要什么。</br>
 能成功的，不一定是技能最强的，但一定是知道要做什么的那个人。</br></br>
 
-Fighting，flow your heart，find your own spark，the future is promising。
+Flow your heart，find your own spark，the future is promising。
