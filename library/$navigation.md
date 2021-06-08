@@ -86,6 +86,8 @@
         - [负载均衡](?file=004-编程/200-MicroService/002-ServiceComb/005-负载均衡 "负载均衡")
         - [动态代理](?file=004-编程/200-MicroService/002-ServiceComb/006-动态代理 "动态代理")
         - [服务中心](?file=004-编程/200-MicroService/002-ServiceComb/007-服务中心 "服务中心")
+    - **Tracing**
+        - [SkyWalking](?file=004-编程/200-MicroService/003-Tracing/001-SkyWalking "SkyWalking")
 - **MQ**
     - **RabitMQ**
     - **Kafka**
