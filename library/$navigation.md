@@ -30,23 +30,30 @@
     - [优化思路](?file=003-总结/005-性能/001-优化思路 "优化思路")
 - **DFX**
     - [概述](?file=003-总结/006-DFX/001-概述 "概述")
-- **IDEA**
-    - [缓存切面](?file=003-总结/010-IDEA/001-缓存切面 "缓存切面")
-    - [聚合服务](?file=003-总结/010-IDEA/002-聚合服务 "聚合服务")
-    - [多边形判断](?file=003-总结/010-IDEA/003-多边形判断 "多边形判断")
-    - [Spark通讯](?file=003-总结/010-IDEA/004-Spark通讯 "Spark通讯")
+- **CodeReview**
+    - [CodeReview简介](?file=003-总结/007-CodeReview/001-CodeReview简介 "CodeReview简介")
+    - [CodeReview经验](?file=003-总结/007-CodeReview/002-CodeReview经验 "CodeReview经验")
+- **测试**
 - **工作**
     - **可信**
         - [可信概念](?file=003-总结/099-工作/001-可信/001-可信概念 "可信概念")
         - [CleanCode](?file=003-总结/099-工作/001-可信/002-CleanCode "CleanCode")
     - **MDE**
     - **Commiter**
+    - **IDEA**
+        - [缓存切面](?file=003-总结/099-工作/009-IDEA/001-缓存切面 "缓存切面")
+        - [聚合服务](?file=003-总结/099-工作/009-IDEA/002-聚合服务 "聚合服务")
+        - [多边形判断](?file=003-总结/099-工作/009-IDEA/003-多边形判断 "多边形判断")
+        - [Spark通讯](?file=003-总结/099-工作/009-IDEA/004-Spark通讯 "Spark通讯")
 
 ##### 编程
 - **JAVA**
     - **Java基础**
         - [学习资料](?file=004-编程/001-JAVA/001-Java基础/001-学习资料 "学习资料")
         - [知识点](?file=004-编程/001-JAVA/001-Java基础/002-知识点 "知识点")
+        - [JVM](?file=004-编程/001-JAVA/001-Java基础/003-JVM "JVM")
+        - [JDK](?file=004-编程/001-JAVA/001-Java基础/004-JDK "JDK")
+        - [GC](?file=004-编程/001-JAVA/001-Java基础/005-GC "GC")
     - **Java框架**
         - **Spring**
             - [SpringBoot](?file=004-编程/001-JAVA/002-Java框架/001-Spring/001-SpringBoot "SpringBoot")
@@ -64,13 +71,14 @@
 - **SPARK**
     - [基本概念](?file=004-编程/007-SPARK/001-基本概念 "基本概念")
 - **JS**
-- **Search**
-- **构建**
-    - [GIt](?file=004-编程/019-构建/001-GIt "GIt")
-    - [Maven](?file=004-编程/019-构建/002-Maven "Maven")
-    - [Gradle](?file=004-编程/019-构建/003-Gradle "Gradle")
-    - [Jekins](?file=004-编程/019-构建/004-Jekins "Jekins")
+- **Rust**
+- **CI**
+    - [GIt](?file=004-编程/019-CI/001-GIt "GIt")
+    - [Maven](?file=004-编程/019-CI/002-Maven "Maven")
+    - [Gradle](?file=004-编程/019-CI/003-Gradle "Gradle")
+    - [Jekins](?file=004-编程/019-CI/004-Jekins "Jekins")
 - **BigData**
+- **Search**
 - **MicroService**
     - **Dubbo**
         - [入门](?file=004-编程/200-MicroService/001-Dubbo/001-入门 "入门")
