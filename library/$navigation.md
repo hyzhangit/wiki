@@ -54,6 +54,14 @@
         - [JVM](?file=004-编程/001-JAVA/001-Java基础/003-JVM "JVM")
         - [JDK](?file=004-编程/001-JAVA/001-Java基础/004-JDK "JDK")
         - [GC](?file=004-编程/001-JAVA/001-Java基础/005-GC "GC")
+        - [ByteCode](?file=004-编程/001-JAVA/001-Java基础/006-ByteCode "ByteCode")
+        - [Reflect](?file=004-编程/001-JAVA/001-Java基础/007-Reflect "Reflect")
+        - [JDBC](?file=004-编程/001-JAVA/001-Java基础/008-JDBC "JDBC")
+        - [JNI](?file=004-编程/001-JAVA/001-Java基础/009-JNI "JNI")
+        - [DynamicProxy](?file=004-编程/001-JAVA/001-Java基础/010-DynamicProxy "DynamicProxy")
+        - [Thread](?file=004-编程/001-JAVA/001-Java基础/011-Thread "Thread")
+        - [AnnotationProcessor](?file=004-编程/001-JAVA/001-Java基础/012-AnnotationProcessor "AnnotationProcessor")
+        - [Exception](?file=004-编程/001-JAVA/001-Java基础/013-Exception "Exception")
     - **Java框架**
         - **Spring**
             - [SpringBoot](?file=004-编程/001-JAVA/002-Java框架/001-Spring/001-SpringBoot "SpringBoot")
@@ -63,15 +71,21 @@
             - [入门](?file=004-编程/001-JAVA/002-Java框架/004-Vtex/001-入门 "入门")
         - **PowerMock**
     - **源码**
+    - **调优**
+        - [GC调优](?file=004-编程/001-JAVA/004-调优/001-GC调优 "GC调优")
+        - [JVM运行优化](?file=004-编程/001-JAVA/004-调优/002-JVM运行优化 "JVM运行优化")
 - **GO**
 - **Linux**
 - **Python**
 - **SQL**
-- **SCALA**
+- **Hadoop**
+    - [Hadoop入门](?file=004-编程/006-Hadoop/001-Hadoop入门 "Hadoop入门")
 - **SPARK**
-    - [基本概念](?file=004-编程/007-SPARK/001-基本概念 "基本概念")
+    - [Spark入门](?file=004-编程/007-SPARK/001-Spark入门 "Spark入门")
 - **JS**
 - **Rust**
+- **VUE**
+- **Scala**
 - **CI**
     - [GIt](?file=004-编程/019-CI/001-GIt "GIt")
     - [Maven](?file=004-编程/019-CI/002-Maven "Maven")
