@@ -37,26 +37,34 @@ SparkContext组成
 
 ![](assets/004/007/001-1624811088538.png)
 
-通过这两张图我们不难发现，SparkContext在spark应用中起到了master的作用，掌控了所有Spark的生命活动，统筹全局，除了具体的任务在executor中执行，其他的任务调度、提交、监控、RDD管理等关键活动均由SparkContext主体来完成。
+通过这两张图可以发现，SparkContext在spark应用中起到了master的作用，掌控了所有Spark的生命活动，统筹全局，除了具体的任务在executor中执行，其他的任务调度、提交、监控、RDD管理等关键活动均由SparkContext主体来完成。
 
 ### Master  & Worker
 
-Master：Master进程，Master负责分配资源，在集群启动时，Driver向Master申请资源，Worker负责监控自己节点的内存和CPU等状况，并向Master汇报。在基于standalone的Spark集群，Cluster Manger就是Master
+搭建spark集群的时候我们就已经设置好了master节点和worker节点，一个集群有多个master节点和多个worker节点。
 
-Worker：Worker负责控制Executor执行Task
+master节点常驻master守护进程，负责管理worker节点，我们从master节点提交应用。
+
+worker节点常驻worker守护进程，与master节点通信，并且管理executor进程。
+
+PS：一台机器可以同时作为master和worker节点
 ### Driver & Executor
 
 Driver和Executor是进程，在程序运行时候，向Master请求资源。
 
-Driver: SparkContext初始化，任务过程中于Executor通讯
+### Driver
 
-Executor：由RDD生成DAG后，根据任务Stage和TaskSet分配在Executor进程执行
+Driver: Driver进程就是应用的main()函数并且构建sparkContext对象，当我们提交了应用之后，便会启动一个对应的driver进程。
 
-### MasterNode && WorkerNode
+Driver可以运行在master上，也可以运行worker上（根据部署模式的不同）。Driver首先会向集群管理者（standalone、yarn，mesos）申请spark应用所需的资源，也就是executor，然后集群管理者会根据spark应用所设置的参数在各个worker上分配一定数量的executor，每个executor都占用一定数量的cpu和memory。在申请到应用所需的资源以后，Driver就开始调度和执行我们编写的应用代码了。Driver进程会将我们编写的spark应用代码拆分成多个stage，每个stage执行一部分代码片段，并为每个stage创建一批tasks，然后将这些tasks分配到各个executor中执行。
 
-MasterNode和WorkerNode物理节点，指部署master进程和worker进程的节点。
+
+Executor：Executor进程位于worker节点上，一个worker可以有多个executor。每个executor持有一个线程池，每个线程可以执行一个task，executor执行完task以后将结果返回给driver，每个executor执行的task都属于同一个应用。此外executor还有一个功能就是为应用程序中要求缓存的 RDD 提供内存式存储，RDD 是直接缓存在executor进程内的，因此任务可以在运行时充分利用缓存数据加速运算。
+
 
 ### ApplicationMaster
+
+YarnCluster模式下，Driver的启动类
 
 ### DAGScheduler
 
