@@ -64,7 +64,9 @@ Executor：Executor进程位于worker节点上，一个worker可以有多个exec
 
 ### ApplicationMaster
 
-YarnCluster模式下，Driver的启动类
+YarnCluster模式下，Driver的启动类, 由其启动Driver线程。
+
+YarnClient模式下，Driver在客户端。
 
 ### DAGScheduler
 
