@@ -1,4 +1,4 @@
-> 2021 Q2 - HyZhang
+> 2021 - HyZhang
 
 转眼间毕业六七年，也到了而立之年。</br></br>
 
@@ -8,5 +8,7 @@
 
 最重要的不是你拥有什么，而是你想要什么。</br>
 能成功的，不一定是技能最强的，但一定是知道要做什么的那个人。</br></br>
+
+既然向往星辰大海，何必计较眼前得失。</br></br>
 
 Flow your heart，find your own spark，the future is promising。
