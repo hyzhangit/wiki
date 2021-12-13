@@ -105,6 +105,7 @@
 - **Linux**
     - [Vim](?file=004-编程/003-Linux/001-Vim "Vim")
 - **Python**
+    - [Python基础](?file=004-编程/004-Python/001-Python基础 "Python基础")
 - **SQL**
 - **Hadoop**
     - [Hadoop入门](?file=004-编程/006-Hadoop/001-Hadoop入门 "Hadoop入门")
