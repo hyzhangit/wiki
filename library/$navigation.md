@@ -102,6 +102,7 @@
     - **PDF**
         - [Java工程师成神之路](?file=004-编程/001-JAVA/100-PDF/001-Java工程师成神之路 "Java工程师成神之路")
 - **GO**
+    - [GO基础](?file=004-编程/002-GO/001-GO基础 "GO基础")
 - **Linux**
     - [Vim](?file=004-编程/003-Linux/001-Vim "Vim")
 - **Python**
