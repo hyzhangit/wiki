@@ -7,6 +7,10 @@ Potatoesintocity
 
 isummary
 
+ishare
+
+iaar
+
 template
 
 tools
