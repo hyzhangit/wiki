@@ -8,7 +8,9 @@
 ### 泛型
 Scala泛型使用`[]`表示, 样例:
 ```Scala
-
+trait A[T] {
+    def 
+}
 ```
 
 ## 特殊概念
@@ -42,6 +44,22 @@ val newSalaries = salaries.map(doubleSalary) // List(40000, 140000, 80000)
 ### 模式匹配
 
 
+### 尾递归
 
+@tailrec
+
+```scala
+def factorial(x: Int): Int = {
+      @tailrec
+      def fact(x: Int, accumulator: Int): Int = {
+        if (x <= 1) accumulator
+        else fact(x - 1, x * accumulator)
+      }
+
+      fact(x, 1)
+    }
+
+println("Factorial of 2: " + factorial(2))
+```
 
 
