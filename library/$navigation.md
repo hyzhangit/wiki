@@ -5,6 +5,7 @@
 - [Tips](?file=001-随笔/000-Tips "Tips")
 - **个人杂记**
     - [what do you want](?file=001-随笔/001-个人杂记/001-what do you want "what do you want")
+    - [do not miss](?file=001-随笔/001-个人杂记/002-do not miss "do not miss")
 - **日常小纪**
     - [笑傲江湖](?file=001-随笔/002-日常小纪/001-笑傲江湖 "笑傲江湖")
     - [侠肝义胆](?file=001-随笔/002-日常小纪/002-侠肝义胆 "侠肝义胆")

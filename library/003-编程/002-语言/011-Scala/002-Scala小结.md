@@ -1,7 +1,11 @@
 
 ## 数据类型
 
+Any
 
+AnyVal
+
+AnyRef
 
 ## 基本语法
 
@@ -45,6 +49,8 @@ val newSalaries = salaries.map(doubleSalary) // List(40000, 140000, 80000)
 
 
 ### 尾递归
+
+
 
 @tailrec
 
