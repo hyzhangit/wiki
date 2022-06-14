@@ -10,6 +10,8 @@ isummary
 ishare
 
 iaar
+igame
+ibattle
 
 template
 
