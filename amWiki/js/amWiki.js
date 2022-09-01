@@ -41,6 +41,8 @@ $(function () {
         $menuBar = $('#menuBar'),              //左侧导航内容
         $filter = $('#menuFilter'),
         $filterClean = $filter.next('i'),
+        $pushpin=$('#pushpin'),
+        $pushpinImg=$('#pushpinImg'),
         $main = $('#main'),
         $mainInner = $main.children('.main-inner'),
         $mainSibling = $('#mainSibling'),      //其他文章
@@ -147,6 +149,16 @@ $(function () {
         $filterClean.on('click', function () {
             $filter.val('').trigger('input2');
         });
+        // 目录栏折叠
+        $pushpinImg.on('click', function () {
+            if ($container.hasClass('pushpin-tucked')) {
+                $container.removeClass('pushpin-tucked');
+            } else {
+                $container.addClass('pushpin-tucked');
+            }
+            $win.resize();
+        });
+
         //显示svg图标
         if (sessionStorage['AMWikiIconsSvg']) {
             $('#svgSymbols').append(sessionStorage['AMWikiIconsSvg']);
@@ -395,7 +407,7 @@ $(function () {
             }
         });
         if (HISTORY_STATE) {
-            history.replaceState({path: homePage.path}, '', homePage.url);
+            history.replaceState({ path: homePage.path }, '', homePage.url);
         }
     };
 
@@ -410,7 +422,7 @@ $(function () {
         //更新history记录
         if (!withOutPushState && HISTORY_STATE) {
             var path2 = path.replace(/&/g, '%26');  //对带 & 符号的地址特殊处理
-            history.pushState({path: path}, '', '?file=' + path2);
+            history.pushState({ path: path }, '', '?file=' + path2);
         }
         //第二步，加载服务器上的文档资源，如果有更新重新渲染
         docs.loadPage(path, function (state, content) {

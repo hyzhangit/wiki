@@ -50,7 +50,7 @@ body{position:relative;height:100%;background:#e7e8eb;}
 .header .menu-icon{display:none;}
 
 /* ---------- container ---------- */
-.container{position:relative;margin:20px 18px 0;background:url(../images/menubar_bg.png) repeat-y #fff;border:#c3c4c6 1px solid;border-top:#4296eb 2px solid;}
+.container{position:relative;margin:20px 18px 0;background-color:#fff;border:#c3c4c6 1px solid;border-top:#4296eb 2px solid;}
 
 /* ---------- menu ---------- */
 .container .nav{position:absolute;left:0px;top:0px;width:250px;height:100%;}
@@ -72,8 +72,14 @@ body{position:relative;height:100%;background:#e7e8eb;}
 .menu-search{display:block;position:absolute;top:0;right:1px;z-index:11;width:39px;height:38px;border-left:1px solid #D9D9D9;border-bottom:1px solid #D9D9D9;cursor:pointer;}
 .menu-search:hover{background-color:#f4f5f9;}
 .menu-search svg{position:absolute;top:12px;left:12px;width:16px;height:16px;color:#4296eb;}
+/* pushpin */
+.menu-pushpin{display: none;position: absolute;margin-left: 250px;z-index: 10;align-items: center;width: 12px;height: 100%;border-left: 1px solid #c3c4c6;}
+.menu-pushpin:hover{border-left: 2px solid #4296eb;cursor:col-resize;}
+.menu-pushpin.on{display: flex;}
+.menu-pushpin-img{width: 12px;height: 50px;margin-left: -1px;background: url(../images/filter-collapse-icon.jpeg);background-position: 0px 0px;}
+.menu-pushpin-img:hover{cursor: pointer;background-position: -40px -10px;}
 /* menubar */
-.menubar{position:relative;z-index:0;width:250px;height:100%;padding-top:38px;font-family:Microsoft YaHei,STXihei,STHeiti,Verdana,Arial,Helvetica,sans-serif;border-right:1px solid #e7e7eb;}
+.menubar{position:relative;z-index:0;width:250px;height:100%;padding-top:38px;font-family:Microsoft YaHei,STXihei,STHeiti,Verdana,Arial,Helvetica,sans-serif;}
 .menubar h4,.menubar h5{display:block;position:relative;height:37px;margin:-1px 0 0;padding:0 10px 0 30px;font-size:14px;font-weight:normal;color:#333;line-height:37px;text-shadow:#666 1px 0 0;border:1px solid #D9D9D9;border-width:1px 0;cursor:pointer;}
 .menubar h4:hover{background-color:#f4f5f9;}
 .menubar h5.off{display:none;}
@@ -101,6 +107,11 @@ body{position:relative;height:100%;background:#e7e8eb;}
 .menubar mark{color:red;background:#f5f5f5;}
 
 /* ---------- scroller ---------- */
+.pushpin-tucked .nav{display: none;}
+.pushpin-tucked .main{margin-left: 6px;width: 100%;}
+.pushpin-tucked .menu-pushpin{margin-left: 0;border-left: 0;}
+.pushpin-tucked .menu-pushpin-img{background-position: -103px -10px;}
+
 body[onselectstart]{cursor:pointer;-moz-user-select:none;-webkit-user-select:none;user-select:none;}
 .scroller{height:100%;overflow:hidden;}
 .scroller .scroller-inner{box-sizing:content-box;width:100%;height:100%;-webkit-overflow-scrolling:touch;overflow-scrolling:touch;}
@@ -225,6 +236,7 @@ footer .signature{position:absolute;right:20px;bottom:8px;color:#999;}
 	.menu-search{height:37px;}
 	.menu-search:hover{background-color:transparent;}
 	.menu-search:active{background-color:#f4f5f9;}
+    .pushpin.on{display: none;}
 	
 	.menubar{width:100%;height:auto;padding-bottom:50px;border-right:none;}
 	.menubar i{border-top:1px solid #999;}
