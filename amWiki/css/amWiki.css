@@ -77,7 +77,7 @@ body{position:relative;height:100%;background:#e7e8eb;}
 .menu-pushpin:hover{border-left: 2px solid #4296eb;cursor:col-resize;}
 .menu-pushpin.on{display: flex;}
 .menu-pushpin-img{width: 12px;height: 50px;margin-left: -1px;background: url(../images/filter-collapse-icon.jpeg);background-position: 0px 0px;}
-.menu-pushpin-img:hover{cursor: pointer;background-position: -40px -10px;}
+.menu-pushpin-img:hover{cursor: pointer;background-position: 0px 0px;}
 /* menubar */
 .menubar{position:relative;z-index:0;width:250px;height:100%;padding-top:38px;font-family:Microsoft YaHei,STXihei,STHeiti,Verdana,Arial,Helvetica,sans-serif;}
 .menubar h4,.menubar h5{display:block;position:relative;height:37px;margin:-1px 0 0;padding:0 10px 0 30px;font-size:14px;font-weight:normal;color:#333;line-height:37px;text-shadow:#666 1px 0 0;border:1px solid #D9D9D9;border-width:1px 0;cursor:pointer;}
@@ -110,7 +110,7 @@ body{position:relative;height:100%;background:#e7e8eb;}
 .pushpin-tucked .nav{display: none;}
 .pushpin-tucked .main{margin-left: 6px;width: 100%;}
 .pushpin-tucked .menu-pushpin{margin-left: 0;border-left: 0;}
-.pushpin-tucked .menu-pushpin-img{background-position: -103px -10px;}
+.pushpin-tucked .menu-pushpin-img{background-position: 0px 0px;}
 
 body[onselectstart]{cursor:pointer;-moz-user-select:none;-webkit-user-select:none;user-select:none;}
 .scroller{height:100%;overflow:hidden;}
