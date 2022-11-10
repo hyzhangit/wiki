@@ -115,6 +115,7 @@
         - [Hadoop入门](?file=003-编程/021-大数据/001-Hadoop/001-Hadoop入门 "Hadoop入门")
     - **SPARK**
         - [Spark入门](?file=003-编程/021-大数据/002-SPARK/001-Spark入门 "Spark入门")
+        - [FQA](?file=003-编程/021-大数据/002-SPARK/099-FQA "FQA")
 - **微服务**
     - **Dubbo**
         - [入门](?file=003-编程/022-微服务/001-Dubbo/001-入门 "入门")
