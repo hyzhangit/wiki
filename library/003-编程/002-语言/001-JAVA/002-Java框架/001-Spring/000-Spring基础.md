@@ -7,10 +7,12 @@
 
 ## 特性
 
-### 缓存
+### SpringCache
 
+### SpringEnvironment
 
+spring environment初始化早于spring 容器的初始化，所以我们可以很方便的通过SpringApplicationRunListener事件来操作environment
 
-### 监听器
+### SpringListener
 
 [EventBus VS Spring Event](https://www.cnblogs.com/shoren/p/eventBus_springEvent.html)
